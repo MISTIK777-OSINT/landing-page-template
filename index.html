@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="John Doe - Python Developer Portfolio">
+  <title>John Doe - Python Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="logo" href="./">LOGO</a>
+        
+        <div class="header-controls">
+          <nav class="main-nav" aria-label="Main navigation">
+            <ul class="navigation-menu">
+              <li class="navigation-menu__item">
+                <a class="navigation-menu__link" href="#about">About</a>
+              </li>
+              <li class="navigation-menu__item">
+                <a class="navigation-menu__link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="navigation-menu__item">
+                <a class="navigation-menu__link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          
+          <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+          <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__inner">
+            <p class="hero__subtitle">PYTHON DEVELOPER</p>
+            <h1 class="hero__title">John Doe</h1>
+            <p class="hero__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+              molestias, quo placeat quae dolorem sit molestiae at dolorum
+              deleniti reiciendis!
+            </p>
+            <ul class="hero-action">
+              <li class="hero-action__item">
+                <a class="hero-action__link hero-action__link-primary" href="#">
+                  Download CV
+                </a>
+              </li>
+              <li class="hero-action__item">
+                <a class="hero-action__link hero-action__link-secondary" href="#">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__img">
+            <img class="hero__ava" src="./assets/images/photo.jpg" width="460" height="460" alt="Portrait of John Doe">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">ABOUT</h2>
+        <p class="section-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+          dolores reiciendis aspernatur odit autem, dolore temporibus et optio!
+        </p>
+
+        <div class="about__content">
+          <div class="about__image">
+            <img src="assets/images/workspace.jpg" alt="Workspace photo" width="460" height="300">
+          </div>
+
+          <div class="about__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              architecto, tempore aspernatur esse omnis dolores corrupti quis
+              in minima culpa, iure blanditiis reiciendis dolore vitae ipsum,
+              delectus est. Deserunt! Molestiae, nihil unde. Iste error
+              officia, qui dolorem numquam nisi?
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              iste, tempore doloremque, at sequi cumque eveniet rerum
+              dignissimos odit minus earum nostrum.
+            </p>
+
+            <a class="btn-yellow-outline" href="#">Learn More</a>
+          </div>
+        </div>
+
+        <div class="skills">
+          <ul class="skills-list">
+            <li class="skill-card">
+              <div class="skill-icon">
+                <img src="./assets/icons/html.svg" alt="HTML icon" width="40" height="40">
+              </div>
+              <h4 class="skill-title">HTML</h4>
+              <p class="skill-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+            </li>
+
+            <li class="skill-card">
+              <div class="skill-icon">
+                <img src="./assets/icons/css.svg" alt="CSS icon" width="40" height="40">
+              </div>
+              <h4 class="skill-title">CSS</h4>
+              <p class="skill-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+            </li>
+
+            <li class="skill-card">
+              <div class="skill-icon">
+                <img src="./assets/icons/sass.svg" alt="Sass icon" width="48" height="48">
+              </div>
+              <h4 class="skill-title">SASS</h4>
+              <p class="skill-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+            </li>
+
+            <li class="skill-card">
+              <div class="skill-icon">
+                <img src="./assets/icons/python.svg" alt="Python icon" width="48" height="48">
+              </div>
+              <h4 class="skill-title">PYTHON</h4>
+              <p class="skill-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="section-title">MY PORTFOLIO</h2>
+        <p class="section-subtitle">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolores
+          reiciendis aspernatur odit autem, dolore temporibus et optio!
+        </p>
+
+        <div class="portfolio__grid">
+          <article class="card">
+            <img class="card__img" src="./assets/images/code.jpg" alt="Product Admin Dashboard preview" width="360" height="240">
+            <div class="card__body">
+              <h3 class="card__title">Product Admin Dashboard</h3>
+              <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate qui repellendus iuculit sepe odit dolorem, eiue tenentur eum, consectetur minima?</p>
+              <a class="btn-live" href="#">LIVE PAGE</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="card__img" src="./assets/images/table.jpg" alt="Website Store preview" width="360" height="240">
+            <div class="card__body">
+              <h3 class="card__title">Website Store</h3>
+              <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate qui repellendus iuculit sepe odit dolorem, eiue tenentur eum, consectetur minima?</p>
+              <a class="btn-live" href="#">LIVE PAGE</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="card__img" src="./assets/images/board.jpg" alt="Modern App with AI preview" width="360" height="240">
+            <div class="card__body">
+              <h3 class="card__title">Modern App with AI</h3>
+              <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate qui repellendus iuculit sepe odit dolorem, eiue tenentur eum, consectetur minima?</p>
+              <a class="btn-live" href="#">LIVE PAGE</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2 class="section-title">CONTACTS</h2>
+
+        <div class="contacts__wrapper">
+          <div class="contact-form">
+            <h3 class="contacts__heading">Get in touch</h3>
+            <form>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                  <label for="lastname">Last name</label>
+                  <input type="text" id="lastname" name="lastname" placeholder="Your last name">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+38 (067) 123 45 67">
+                </div>
+              </div>
+
+              <div class="form-group full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">Submit now</button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <h3 class="contacts__heading">Let's connect</h3>
+            <p class="contact-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut suscipit quas consequatur sapiente, repudiandae temporibus, rem distinctio, minus quod atque obcaecati!
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <img src="./assets/icons/phone.svg" alt="phone" width="24" height="24">
+                <span>067 123 45 67</span>
+              </li>
+              <li>
+                <img src="./assets/icons/mail.svg" alt="mail" width="24" height="24">
+                <span>johndoe@gmail.com</span>
+              </li>
+              <li>
+                <img src="./assets/icons/map-pin.svg" alt="location" width="24" height="24">
+                <span>Ukraine, Kyiv</span>
+              </li>
+            </ul>
+
+            <div class="socials">
+              <a href="#"><img src="./assets/icons/github.svg" alt="github" width="28" height="28"></a>
+              <a href="#"><img src="./assets/icons/telegram.svg" alt="telegram" width="28" height="28"></a>
+              <a href="#"><img src="./assets/icons/facebook.svg" alt="facebook" width="28" height="28"></a>
+              <a href="#"><img src="./assets/icons/instagram.svg" alt="instagram" width="28" height="28"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 COMPANY NAME</p>
+    </div>
+  </footer>
+
+  <script>
+    // Переключение темы
+    var themeToggle = document.querySelector('.theme-toggle');
+    var body = document.body;
+    var isDark = true;
+
+    themeToggle.addEventListener('click', function() {
+      if (isDark) {
+        body.setAttribute('data-theme', 'light');
+        themeToggle.textContent = '☀️';
+        isDark = false;
+      } else {
+        body.setAttribute('data-theme', 'dark');
+        themeToggle.textContent = '🌙';
+        isDark = true;
+      }
+    });
+
+    // Мобильное меню
+    var menuToggle = document.querySelector('.menu-toggle');
+    var mainNav = document.querySelector('.main-nav');
+    
+    menuToggle.addEventListener('click', function() {
+      if (mainNav.classList.contains('active')) {
+        mainNav.classList.remove('active');
+        menuToggle.textContent = '☰';
+      } else {
+        mainNav.classList.add('active');
+        menuToggle.textContent = '✕';
+      }
+    });
+
+    // Закрытие меню при клике на ссылку
+    var navLinks = document.querySelectorAll('.navigation-menu__link');
+    for (var i = 0; i < navLinks.length; i++) {
+      navLinks[i].addEventListener('click', function() {
+        mainNav.classList.remove('active');
+        menuToggle.textContent = '☰';
+      });
+    }
+  </script>
+</body>
+</html>

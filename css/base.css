@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol { list-style: none; }
+
+
+:focus{outline: 2px solid #fff;outline-offset:2px}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:0.001ms!important;transition-duration:0.001ms!important}
+}
